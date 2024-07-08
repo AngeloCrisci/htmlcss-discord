@@ -40,7 +40,7 @@
     }
 
     h2 {
-        font-size: 50px;
+        font-size: 49px;
         color: #23272a;
         padding-top: 25px;
     }
@@ -125,9 +125,6 @@
 
     .box-g {
         min-height: 600px;
-        border: 2px , black , dashed;
-        background-color: green;
-        
     }
 
     .pdg {
