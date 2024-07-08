@@ -121,10 +121,12 @@
 
     .gray-c {
         background-color: #f6f6f6;
+        text-align: center;
     }
 
     .box-g {
-        min-height: 600px;
+        min-height: 200px;
+        text-align: center;
     }
 
     .pdg {
@@ -166,12 +168,27 @@
         min-height: 30px;
     }
 
-    .acqua{
-        background-color: aquamarine;
+    .blue{
+        background-color: #8ea2e1;
+        margin-top: 50px;
+        color: black;
+        display: block;
     }
 
     .dwnld {
         padding: 15px;
         font-size: 20px;
         margin-right: 10px;
+    }
+
+    .b-img {
+        margin-left: 60px;
+    }
+
+    .stars h2 {
+        background-image: url(/img/stars.svg);
+        text-align: center;
+        font-size: 30px;
+
+
     }
