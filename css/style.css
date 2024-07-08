@@ -28,6 +28,7 @@
 
     .group {
         min-height: 600px;
+        margin-top: 70px;
     }
 
     .nav a {
@@ -38,7 +39,16 @@
         font-weight: 400;
     }
 
+    h2 {
+        font-size: 50px;
+        color: #23272a;
+        padding-top: 25px;
+    }
 
+    h6 {
+        font-size: 20px;
+        margin: 40px;
+    }
 
 
     /* Utilities */
@@ -73,7 +83,7 @@
         padding-bottom: 50px;
         background-image: url(/img/jumbo.png);
         background-size: cover;
-        min-height: 600px;
+        min-height: 700px;
     }
 
     .spotlight-content {
@@ -87,9 +97,11 @@
 
     p  {
         font-size: 20px;
-        padding-top: 50px;
-        font-weight: 700;
+        padding-top: 25px;
+        font-weight: 600;
         margin-bottom: 50px;
+        color: #23272a;
+
     }
 
 
@@ -100,19 +112,15 @@
 
     .big-b {
         flex-basis: 60%;
-        background-color: blue;
-        border: 2px , black , dashed;
     }
 
     .small-p {
         flex-basis: 40%;
-        background-color: pink;
-        border: 2px black dashed;
 
     }
 
     .gray-c {
-        background-color: gray;
+        background-color: #f6f6f6;
     }
 
     .box-g {
