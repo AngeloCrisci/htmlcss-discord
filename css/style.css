@@ -28,7 +28,7 @@
 
     .group {
         min-height: 600px;
-        margin-top: 70px;
+
     }
 
     .nav a {
@@ -48,6 +48,12 @@
     h6 {
         font-size: 20px;
         margin: 40px;
+    }
+
+    h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        color: #6677ad;
     }
 
 
@@ -122,6 +128,7 @@
     .gray-c {
         background-color: #f6f6f6;
         text-align: center;
+        margin-bottom: 70px ;
     }
 
     .box-g {
@@ -134,16 +141,13 @@
     }
 
     .black-c {
-        background-color: black;
+        background-color: #23272a;
         color: whitesmoke;
     }
 
     .b-section {
-        background-color: rgb(212, 143, 154);
-        border: 2px rgb(255, 255, 255) dashed;
+        padding-top: 30px;
         flex-grow: 1;
-
-        
     }
 
     .s-sections {
@@ -189,6 +193,8 @@
         background-image: url(/img/stars.svg);
         text-align: center;
         font-size: 30px;
+    }
 
-
+    .small-logos {
+        padding-right: 10px;
     }
