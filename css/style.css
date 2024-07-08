@@ -1,0 +1,145 @@
+/* Css.Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+
+    /* Generals */
+
+    header {
+        background-color: lightblue;
+    }
+
+    .header-top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+    .container {
+        max-width: 1080px;
+        border-color: black;
+        display: block;
+        margin: 0  auto;
+    }
+
+    .group {
+        min-height: 600px;
+    }
+
+
+
+
+    /* Utilities */
+
+    .header-top > * {
+        border-color: black;
+        background-color: goldenrod;
+        border-style: dashed;
+        align-content: center;
+        text-align: center;
+
+    }
+
+    .f-b {
+        flex-basis: 20%;
+        min-height: 50%;
+    }
+
+    .nav {
+        flex-basis: 50%;
+    }
+
+    .spotlight {
+        background-color: rgb(3, 3, 58);
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .spotlight-content {
+        padding: 20px;
+        border: 2px, black, dashed;
+        width: 50%;
+        min-height: 400px;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: pink;
+        
+    }
+
+
+    .d-f {
+        display: flex;
+        padding: 25px;
+    }
+
+    .big-b {
+        flex-basis: 60%;
+        background-color: blue;
+        border: 2px , black , dashed;
+    }
+
+    .small-p {
+        flex-basis: 40%;
+        background-color: pink;
+        border: 2px black dashed;
+
+    }
+
+    .gray-c {
+        background-color: gray;
+    }
+
+    .box-g {
+        min-height: 600px;
+        border: 2px , black , dashed;
+        background-color: green;
+        
+    }
+
+    .pdg {
+        padding: 25px;
+    }
+
+    .black-c {
+        background-color: black;
+    }
+
+    .b-section {
+        background-color: rgb(212, 143, 154);
+        border: 2px rgb(255, 255, 255) dashed;
+        flex-grow: 1;
+
+        
+    }
+
+    .s-sections {
+        background-color: rgb(192, 217, 255);
+        border: 2px rgb(255, 255, 255) dashed;
+        flex-basis: 15%;
+
+    }
+
+    .h-f {
+        min-height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bottom {
+        flex-basis: 40px;
+        color: aliceblue;
+        border: 2px dashed white;
+        background-color: pink;
+        min-height: 30px;
+    }
+
+    .acqua{
+        background-color: aquamarine;
+    }
