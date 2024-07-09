@@ -87,7 +87,7 @@
         background-color: rgb(3, 3, 58);
         padding-top: 50px;
         padding-bottom: 50px;
-        background-image: url(/img/jumbo.png);
+        background-image: url(../img/jumbo.png);
         background-size: cover;
         min-height: 700px;
     }
@@ -190,7 +190,7 @@
     }
 
     .stars h2 {
-        background-image: url(/img/stars.svg);
+        background-image: url(../img/stars.svg);
         text-align: center;
         font-size: 30px;
     }
